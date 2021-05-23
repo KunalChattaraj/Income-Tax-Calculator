@@ -18,6 +18,7 @@ public class CWH_19_CH_04_PS {
         }
         else if (Income > 500000 && Income <= 1000000)
         {
+            // Formula to calculate tax
             float Income_20 = (500000-250000)*0.05f + (Income-500000)*0.20f;
             System.out.println("YOUR TAX AMOUNT IS:" + Income_20);
         }
